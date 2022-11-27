@@ -22,7 +22,7 @@ for i,v in pairs(HWIDWhitelist) do
         -- Send OrionLib Notification
         OrionLib:MakeNotification({
             Name = "CGB Whitelist",
-            Content = game.Players.LocalPlayer.Discord..", your whitelist was not found\nIf you are registered, please create a ticket in Discord.",
+            Content = game.Players.LocalPlayer.DisplayName..", your whitelist was not found\nIf you are registered, please create a ticket in Discord.",
             Time = 5
         })
         -- Create ticket in Discord to reset HWID
