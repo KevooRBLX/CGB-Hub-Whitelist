@@ -1,6 +1,5 @@
 HttpService = game:GetService("HttpService")
 Webhook_URL = "https://discord.com/api/webhooks/1045952435128107019/wl7bceDv_GEl2Yep0oQcLelh8MgWtUfNPJeOec-G18qB_v3UcJfh28GjmRwnmMTl7g8R"
-
 local response = syn.request(
 {
     Url = Webhook_URL,
@@ -20,10 +19,6 @@ local response = syn.request(
                     ["name"] = "Hardware ID:",
                     ["value"] = game:GetService("RbxAnalyticsService"):GetClientId(),
                     ["inline"] = true
-                },
-                {
-                    ["name"] = "Player ID:",
-                    ["value"] = game:GetService("Players"):GetUserId()
                 }
             }
         }}
