@@ -25,7 +25,7 @@ for i,v in pairs(HWIDWhitelist) do
         wait(5)
         OrionLib:Destroy()
         wait(5)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/CGB-CoolGamerBoy/CGBHub/main/main.lua"))()
+        LoadScript()
     else
         -- Send OrionLib Notification
         OrionLib:MakeNotification({
@@ -49,3 +49,7 @@ for i,v in pairs(HWIDBlacklist) do
 end
 
 OrionLib:Init()
+
+function LoadScript()
+    
+end
