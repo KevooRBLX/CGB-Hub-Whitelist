@@ -2,8 +2,8 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 
 -- Load local HWID data
-local HWIDWhitelist = loadstring(game:HttpGet("", true))()
-local HWIDBlacklist = loadstring(game:HttpGet("", true))()
+local HWIDWhitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/CGB-CoolGamerBoy/CGB-Hub-Whitelist/main/HWID_Whitelist.lua?token=GHSAT0AAAAAAB3VS5AK7Z3NCS2JR4BXJNLCY4DAWYA", true))()
+local HWIDBlacklist = loadstring(game:HttpGet("https://raw.githubusercontent.com/CGB-CoolGamerBoy/CGB-Hub-Whitelist/main/HWID_Blacklist.lua?token=GHSAT0AAAAAAB3VS5AKXB65O4T7BFKYUN76Y4DAXBQ", true))()
 local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
 
 -- Check if Client ID is in whitelist
