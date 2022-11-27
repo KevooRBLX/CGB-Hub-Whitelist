@@ -19,13 +19,13 @@ for i,v in pairs(HWIDWhitelist) do
         wait(2)
         OrionLib:MakeNotification({
             Name = "CGB Whitelist",
-            Content = "Your whitelist has been found, "..game.Players.LocalPlayer.DisplayName.."!",
+            Content = "The script will load soon, "..game.Players.LocalPlayer.DisplayName.."!",
             Time = 10
         })
         wait(5)
         OrionLib:Destroy()
         wait(5)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/CGB-CoolGamerBoy/CGBHub/main/main.lua", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CGB-CoolGamerBoy/CGBHub/main/main.lua"))()
     else
         -- Send OrionLib Notification
         OrionLib:MakeNotification({
