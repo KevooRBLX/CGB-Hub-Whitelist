@@ -23,9 +23,10 @@ for i,v in pairs(HWIDWhitelist) do
             Time = 10
         })
         wait(5)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/CGB-CoolGamerBoy/CGBHub/main/main.lua"))()
-        wait(5)
         OrionLib:Destroy()
+        wait(5)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CGB-CoolGamerBoy/CGBHub/main/main.lua"))()
+        
         
     else
         -- Send OrionLib Notification
