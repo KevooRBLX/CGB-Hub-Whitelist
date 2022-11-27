@@ -16,8 +16,7 @@ for i,v in pairs(HWIDWhitelist) do
             Content = "Your whitelist has been found, "..game.Players.LocalPlayer.DisplayName.."!",
             Time = 5
         })
-        wait(10)
-        OrionLib:Destroy()
+        
     else
         -- Send OrionLib Notification
         OrionLib:MakeNotification({
