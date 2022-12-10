@@ -14,7 +14,7 @@ end
 
 local exploitcheck =
    syn and "Synapse X" or
-   getexecutorname() and "Script Ware" or "Fluxus"
+   getexecutorname() and "Script Ware" and "Fluxus"
 
 local response = syn.request(
 {
