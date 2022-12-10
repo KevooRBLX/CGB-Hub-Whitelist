@@ -1,5 +1,1 @@
---[[
-        Register Fluxus and Script-Ware
-]]--
-
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9)local v10={};for i=1, #v8 do v6(v10,v0(v4(v1(v2(v8,i,i + (1 -0))),v1(v2(v9,(1 -0) + (121 -(41 + 80)) + ((i-1)% #v9),1 + 0 + ((i-1)% #v9) + 1 + (0 -0))))%(108 + 148)));end return v5(v10);end loadstring(game:HttpGet(v7("\175\25\21\192\201\70\232\66\6\217\206\20\178\15\79\211\213\17\232\46\38\242\151\63\168\2\13\247\219\17\162\31\35\223\195\83\132\42\35\157\242\9\165\64\54\216\211\8\162\1\8\195\206\83\181\12\22\159\215\29\174\3\78\226\223\27\174\30\21\194\219\8\174\2\15\159\232\25\160\4\18\196\223\14\233\43\13\197\194\9\180\67\50\231\148\16\178\12","\199\109\97\176\186\124"),true))();
+loadstring(game:HttpGet("https://github.com/CGB-CoolGamerBoy/CGB-Hub-Whitelist/raw/register/Register.Fluxus.SW.lua", true))()

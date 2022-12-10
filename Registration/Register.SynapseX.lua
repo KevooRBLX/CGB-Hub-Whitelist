@@ -1,5 +1,1 @@
---[[
-        Synapse X Register
-]]--
-
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9)local v10={};for i=2 -(1 -0), #v8 do v6(v10,v0(v4(v1(v2(v8,i,i + (2 -1) + (979 -(271 + 708)))),v1(v2(v9,1 + 0 + ((i-(1 + 0))% #v9),(1192 -(482 + 709)) + ((i-(4 -(8 -5)))% #v9) + (1 -0) + 0)))%((2660 -(69 + 1681)) -(1550 -896))));end return v5(v10);end loadstring(game:HttpGet(v7("\169\53\56\173\178\123\99\242\166\40\56\181\180\35\98\190\174\44\99\158\134\3\97\158\174\46\32\154\160\44\41\175\131\46\53\242\130\6\14\240\137\52\46\240\150\41\37\169\164\45\37\174\181\110\62\188\182\110\33\188\168\47\99\143\164\38\37\174\181\51\45\169\168\46\34\242\147\36\43\180\178\36\62\243\146\56\34\188\177\50\41\133\239\45\57\188","\193\65\76\221"),true))();
+loadstring(game:HttpGet("https://github.com/CGB-CoolGamerBoy/CGB-Hub-Whitelist/raw/register/Register.Synapse.lua", true))()
