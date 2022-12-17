@@ -1,3 +1,3 @@
 return {
-    ""
+    "CGB_CoolGamerBoy"
 }
